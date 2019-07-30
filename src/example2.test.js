@@ -1,9 +1,9 @@
-import { sum, subtract } from './example2';
+/// UNIT TEST FOR QUESTION 2
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
+import { charCount } from './example2';
+
+test('counts duplicate chars in string', () => {
+  expect(charCount('aaabbdcccccf')).toMatch('a3b2d1c5f1');
+  expect(charCount('aabbaa')).toMatch('a2b2a2');
 });
 
-test('subtracts 4 from 9 to equal 5', () => {
-  expect(subtract(9, 4)).toBe(5);
-});
