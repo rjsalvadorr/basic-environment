@@ -2,4 +2,8 @@ function sum(a, b) {
   return a + b;
 }
 
-export { sum };
+function subtract(a, b) {
+  return a - b;
+}
+
+export { sum, subtract };
