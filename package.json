@@ -1,0 +1,14 @@
+{
+  "name": "basic-environment",
+  "version": "1.0.0",
+  "description": "yep",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "RJ Salvador",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
